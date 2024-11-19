@@ -1,0 +1,146 @@
+body {
+    margin: 0 20% 0 20%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    background-color: rgb(186, 186, 186); 
+    flex: 1;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.5em 0.5em 0.5em rgb(126, 126, 126);
+    
+}
+
+.container .main-container {
+    display: flex;
+    background-color: white; 
+    box-shadow: 0.5em 0.5em 0.5em rgb(60, 60, 60);
+    flex-direction: column;
+    
+}
+
+.container .main-container .header{
+    flex: 0;
+    display: flex;
+    gap: 1em;
+}
+
+.container .main-container .header .profile {
+   padding: 1em;
+    
+}
+
+.container .main-container .header .profile img{
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+}
+
+.container .main-container .header .info{
+    padding: 1em;
+ }
+
+.container .main-container .header .info div p{
+   margin: 0px;
+}
+
+.container .main-container .header .nav {
+    flex: 1;
+    padding: 1em;
+    display: flex;
+    justify-content: end;
+     
+}
+
+
+.container .main-container .content{
+    flex: 1;
+    display: flex;
+}
+
+.container .main-container .content .img{
+   display: flex;
+    width: 100%;
+    justify-content: center;
+     
+}
+
+.container .main-container .content .img img{
+    border-radius: 1em;
+    width: 50%;
+    height: 300px;
+     
+}
+
+
+.container .main-container .feedback{
+    flex: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5em;
+}
+
+.container .main-container .feedback .icons{
+   
+    display: flex;
+    gap: 1em;
+    
+}
+.container .main-container .feedback div p{
+   color: grey;
+}
+
+.container .main-container .footer {
+    flex: 1;
+    background: rgb(224, 223, 223);
+    display: flex;
+    align-items: center;
+    gap:1em;
+    padding: 1em;
+}
+.container .main-container .footer .profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container .main-container .footer .comment{
+    flex: 1;
+   margin-top: auto;
+   color: rgb(110, 108, 108);
+    
+}
+
+.container .main-container .footer .right-cons{
+    display: flex;
+    gap: 1em;
+    color: rgb(102, 102, 102);
+}
+
+@media screen and (max-width: 601px)
+    {
+        .container {
+            padding: 1em;
+            height: 90%;
+            flex: 1;
+        }
+
+    }
+
+    @media screen and (min-width: 601px) and (max-width: 1024px)
+    {
+        .container {
+            padding: 1em;
+            height: 90%;
+            flex: 1;
+        }
+    }

@@ -1,0 +1,223 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+
+.container {
+
+    height: 100vh;
+    background-color: grey;
+}
+
+.container .main-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-template-rows: 1fr; */
+    gap: 3em;
+    padding: 5%;
+}
+
+.container .main-container .left {
+    /* height: 100%; */
+    display: grid;
+    width: 100%;
+    grid-template-rows: 100px repeat(4,auto);
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em;
+    gap:1em;
+    
+}
+
+
+.container .main-container .left .cart p{
+    padding: 1em;
+  border-bottom: 1px solid black;
+}
+.container .main-container .left .items{
+   display:flex;
+   gap: 1em;
+}
+
+.container .main-container .left .items .img{
+    background-color: grey;
+}
+
+img {
+    width: 70px;
+}
+
+.container .main-container .left .items .info{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    font-size: 10px;
+    color: grey;
+ }
+
+.container .main-container .left .items .info .top{
+    display:flex;
+    font-size: 10px;
+    color: grey;
+    justify-content: space-between;
+   
+}
+.container .main-container .left .items .info .mid{
+    display:flex;
+    font-size: 10px;
+    gap: 1em;
+   
+}
+
+.container .main-container .left .top .bot-row {
+    display:flex;
+    gap:1em;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.container .main-container .left .top .bot-row .bottom{
+    display:flex;
+    gap:1em;
+    border: 1px solid rgb(154, 154, 154);
+    align-items: center;
+    justify-content: end;
+
+}
+
+.container .main-container .left .top .bot-row .bottom div select{
+    color: grey;
+
+}
+
+.container .main-container .left .top .choose {
+    
+    display: flex;
+    gap: 0.5em;
+   
+}
+
+.container .main-container .left .top .choose .choice{
+    
+    display: flex;
+    gap: 0.2em;
+   
+}
+
+.container .main-container .right {
+    background-color: white;
+    border-radius: 5px;
+   
+}
+
+.container .main-container .right .r-top{
+    
+   display: flex;
+   flex-direction: column;
+   color:grey;
+   margin-left: 1em;;
+}
+
+.container .main-container .right .r-top {
+    
+   display: flex;
+   flex-direction: column;
+}
+
+.container .main-container .right .r-top .r-bottom{
+    
+    display: flex;
+    gap: 1em;
+    border: 1px solid grey;
+    width:50%;
+    border-radius: 5px;
+    padding-left: 1em;
+}
+
+.container .main-container .right .r-top .r-bottom div p{
+   
+    border: 1px solid grey;
+    padding: 0 1em 0 1em;;
+    border-radius: 5px;
+    
+}
+
+ .container .main-container .right .r-top .dashed p{
+   
+   border-bottom: 1px dashed grey;
+   font-size: 15px;
+
+    
+}
+
+.container .main-container .right .r-top .r-s-bottom{
+    
+    display: flex;
+    gap: 1em;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0 1em;
+    justify-content: space-between;
+    margin-right: 1em;
+    
+}
+
+.container .main-container .right .r-top .r-s-bottom div{
+    
+    border: 1px solid grey;
+    
+    border-radius: 10px;
+    padding: 0 1em;
+    color: black;
+}
+
+.container .main-container .right .r-top .discount p{
+    padding:  1em;
+}
+
+.container .main-container .right .r-top .total{
+    
+    display: flex;
+    gap: 1em;
+    padding: 0 1em;
+    justify-content: space-between;
+    margin-right: 1em;
+    
+}
+
+.container .main-container .right .r-top .lower{
+    
+   font-size: 15px;
+   font-weight: lighter;
+    
+}
+
+
+
+.container .main-container .right .r-top .total-lower{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.container .main-container .right .r-top .last-bottom{
+    
+   border-radius: 5px;
+   display: flex;
+    margin: 0.1em;
+    justify-content: center;
+    color: black;
+    border: 1px solid grey;
+    margin-right: 1em;
+}
+
+.container .main-container .right .r-top .blue {
+    
+    background-color: blue;
+    color: white;
+    border: none;
+    
+   
+}
